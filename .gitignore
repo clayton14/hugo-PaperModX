@@ -1,2 +1,3 @@
 .vscode
 .github
+.hugo_build.lock
