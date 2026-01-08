@@ -1,0 +1,5 @@
+{{ with resources.Get (.Get "src") }}
+<audio controls>
+  <source src="{{ .RelPermalink }}"> 
+</audio>>
+{{ end }}
